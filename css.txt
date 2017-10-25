@@ -32,14 +32,11 @@ position：fixed；
 
 fixed：表示固定定位，与absolute定位类型类似，但它的相对移动的坐标是视图（屏幕内的网页窗口）本身。由于视图本身是固定的，它不会随浏览器窗口的滚动条滚动而变化，除非你在屏幕中移动浏览器窗口的屏幕位置，或改变浏览器窗口的显示大小，因此固定定位的元素会始终位于浏览器窗口内视图的某个位置，不会受文档流动影响，这与background-attachment:fixed;属性功能相同
 
-
-
-
-
-
-
-
-
-内核：IE（Trident）
-google(webkit)
-opera(Blink)
+ 
+浏览器的内核 
+ 
+a、 IE: trident 内核
+b、 Firefox ： gecko 内核
+c、 Safari:webkit 内核
+d、 Opera: 以前是 presto 内核， Opera 现已改用 Google Chrome 的 Blink 内核
+e、 Chrome:Blink( 基于 webkit ， Google 与 Opera Software 共同开发 )
